@@ -1,0 +1,30 @@
+h1{
+    color: aqua;
+}
+div p{
+    color: blueviolet;
+}
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-container > div{
+    background-color: blanchedalmond;
+    font-size: 30px;
+    margin: 10px;
+    padding: 20px;
+}
+
+div > a{
+    color:grey;
+    font-style: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    padding: 0px;
+}
+div > a:hover{
+    color:black;
+    background-color:orange;
+
+}
